@@ -1,0 +1,57 @@
+@import url(reset.css);
+
+body{
+	font: 1em/1.4em Arial,sans-serif;
+}
+small{
+	font-size: .8em;
+}	
+a{ color: #2098FC;text-decoration: none; }
+#container{
+	text-align: center;
+	padding: 20px 20px 0;
+}
+#digital{
+	color: #1467B5;
+	padding: 0 40px 0 0;	
+}
+#analog{
+	margin: 20px auto 0;
+	padding: 51px 0 0 60px;
+	width: 410px;
+	height: 416px;
+	background: transparent url(img/clockbg.png) no-repeat top left;
+}
+#clock{
+	margin: 0;
+	width: 300px;
+	height: 300px;
+	position: relative;
+}
+#sec, #min, #hour {
+	position: absolute;
+	display: block;
+	height: 300px;
+	width: 30px;
+	left: 135px;
+	top:0;
+}
+#sec{
+	background: transparent url(img/sec.png) no-repeat top left;
+}
+#min{
+	background: transparent url(img/min.png) no-repeat top left;
+}
+#hour{
+	background: transparent url(img/hour.png) no-repeat top left;
+}
+#center{
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	left: 142px;
+	top: 142px;
+	background: transparent url(img/center.png) no-repeat center center;
+}
