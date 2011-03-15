@@ -25,7 +25,7 @@ function calTime(){
 	if(milli < 10)milli = '0'+milli;
 	if(micro < 10)micro = '0'+micro;
 	
-	var deci_degree = 36*deci;
+	var deci_degree = (3.6*(centi % 10));
 	var milli_degree = 3.6*milli;
 	var micro_degree = .36*micro;
 	
